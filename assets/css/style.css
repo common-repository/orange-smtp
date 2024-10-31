@@ -1,0 +1,741 @@
+.smtp_mailer-settings{
+    display: flex;
+    }
+    .smtp_mailer_row{
+       width: 142px; 
+    }  
+    .smtp_mailer_item {
+        width: 120px;
+        height: auto;
+        display: inline-flex;
+        margin-right: 1px;
+        margin-bottom: 23px;
+        cursor: pointer;
+        border-radius: 24px;
+    }
+    .smtp_mailer_item label img{
+        border-radius: 24px;
+    }
+    
+    /* .smtp_mailer_item input[type="radio"]:checked + label img {
+        border: 2px solid red;
+    }
+
+    .smtp_mailer_item label img + input[type="radio"]:checked {
+        border: 1px solid red;
+    }*/
+    
+      .orange-smtp-header{
+        text-align: left;
+        height: auto;
+        margin-left: 10px;
+        }
+        .orange-smtp-header p{
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: 0em;
+            line-height: 9px;
+        }
+       
+        .orange-smtp-header + table > tbody > tr > th{
+            display: none;
+        }
+        .toplevel_page_orange-wp-smtp .tab-content {
+            padding: 20px;
+        }
+        /*Tab bar*/
+        .toplevel_page_orange-wp-smtp #wpcontent{
+            padding-left: 0;
+        }
+        .orange-smtp-navbar-header {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding-left: 20px;
+            height: 64px;
+        }
+        .orange-smtp-navbar-header .orange-smtp-logo{
+            margin-right: 30px;
+        }
+        .orange-smtp-navbar-header .orange-smtp-logo a {
+            width: auto;
+            height: auto;
+            float: left;
+        }
+        .orange-smtp-navbar-header .orange-smtp-logo img{
+            max-width: 120px;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper{
+            padding: 0;
+            border: none;
+            display: flex;
+            align-items: center;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab{
+            background: #fff;
+            border:none;
+            border-bottom:3px solid transparent;
+            padding: 0 2px;
+            height: 60px;
+            line-height: 60px;
+            margin: 0;
+            color: #878787;
+            transition: all 0.3s ease-in;
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            margin: 0 20px;            
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active{
+            color: #333333;
+            border-bottom-color: #FE6E4C ;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab:hover{
+            color: #333333;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active{
+            border-bottom-color: #FE6E4C ;
+        }
+    
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab .icon-config {
+            background-image: url('../images/config.svg'); 
+            background-repeat: no-repeat; 
+            margin-right: 5px; 
+            Width: 16.68px;
+            Height: 15.73px;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active .icon-config {
+            background-image: url('../images/active_config.svg'); 
+        }
+        
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab .icon-emailtest {
+            background-image: url('../images/test_email.svg'); 
+            background-repeat: no-repeat; 
+            margin-right: 7px; 
+            Width: 16.68px;
+            Height: 15.73px;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active .icon-emailtest {
+            background-image: url('../images/active_test_email.svg');
+        }
+
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab .icon-smtptemplate {
+            background-image: url('../images/smtptemplate.svg'); 
+            background-repeat: no-repeat; 
+            margin-right: 7px; 
+            Width: 16.68px;
+            Height: 15.73px;
+        }
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active .icon-smtptemplate {
+            background-image: url('../images/active-smtptemplate.svg'); 
+        }
+        
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab .icon-doc {
+            background-image: url('../images/doc.svg'); 
+            background-repeat: no-repeat; 
+            margin-right: 7px; 
+            Width: 16.68px;
+            Height: 15.73px;
+        }
+
+        .orange-smtp-navbar-header .nav-tab-wrapper .nav-tab-active .icon-doc {
+            background-image: url('../images/active_doc.svg'); 
+        }
+        
+    .orange-wrapper{
+        width: 100%;
+        float: left;
+        margin-left:20px;
+    }
+    .orange_email {
+        width: 510px;
+        height: auto;
+        background: rgba(255, 255, 255, 1);
+        padding: 48px;
+        gap:10px;
+        border-radius: 24px;
+    }
+    .orange_email tr td label{
+        /* font-family: Inter Tight; */
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;  
+    }
+    .orange_email tr td p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    }
+    .orange-email-test{
+        width: 60%;
+        float: left;
+        margin-left:20px;
+    }
+
+    .orange-email-test h4{ 
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;          
+    }
+    .orange_email tr td{
+        padding: 0px 0px 22px 0px !important;
+    }
+    .orange_email tr td input[type=text],
+    .orange_email tr td input[type=email]
+    {
+        width: 500px;
+        height: 48px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        gap: 12px;
+        background: rgba(242, 242, 242, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        margin-top:-9px;
+    }
+    .orange_email tr td textarea{
+        padding: 12px 16px;
+        border-radius: 8px;
+        gap: 12px;
+        background: rgba(242, 242, 242, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        margin-top:-9px;
+    } 
+    .orange_email tr td textarea:focus{
+        border: 2px solid rgba(232, 25, 28, 1) !important;
+        box-shadow: none !important;
+    }
+
+    .orange_email tr td input[type=text]:focus, 
+    .orange_email tr td input[type=email]:focus
+    {
+        border: 2px solid rgba(232, 25, 28, 1) !important;
+        box-shadow: none !important;
+    }
+    .orange_email tr td input:focus{
+        outline: none !important;
+    }
+
+    .toollist{
+        width: 120px;
+        height: auto;
+        object-fit: contain;
+    }
+ 
+    .general-setting{
+        background: rgba(255, 255, 255, 1);
+        padding: 48px !important;
+        margin-top: 25px;
+        border-radius: 24px;
+        gap: 12px;    
+    }
+    .general-setting tr td label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+    }
+    .general-setting tr td p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+    .general-setting tbody{
+        padding: 20px !important;
+    }
+    .general-settings h2{
+        padding-left:1px;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .general-setting tbody{
+        padding-left: 9px;
+        float: left;
+    } 
+
+    .general-setting tr td input[type=text],
+    .general-setting tr td input[type=email]
+    {
+        width: 500px;
+        height: 48px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        gap: 12px;
+        background: rgba(242, 242, 242, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        margin-top:9px;
+    }
+
+    .general-setting tr td input[type=text]:focus, 
+    .general-setting tr td input[type=email]:focus
+    {
+        border: 2px solid rgba(232, 25, 28, 1) !important;
+        box-shadow: none;
+    }
+    .general-setting tr td input:focus{
+        outline: none !important;
+    }
+    .general-setting tbody tr th{
+        padding-left:11px;
+    }
+
+    .smtp-tool h2{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(32, 32, 32, 1);
+    }
+
+    .smtp-tools{
+        background: #fff;
+        margin-top: 20px;
+        padding: 48px 32px 32px 32px;
+        border-radius: 24px;
+    }
+
+    .smtp-tools .form-table{
+       margin-top: -2.4em !important;   
+    }
+    .smtp-tools tr td input[type=text],
+    .smtp-tools tr td input[type=email],
+    .smtp-tools tr td input[type=password]
+    {
+        width: 500px;
+        height: 48px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        gap: 12px;
+        background: rgba(242, 242, 242, 1);
+        border: 1px solid rgba(230, 230, 230, 1);
+        margin-top:9px;
+    }
+
+    .smtp-tools tr td select
+    {
+        width: 500px;
+        height: 48px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid rgba(230, 230, 230, 1);
+        margin-top:9px;
+    }
+    .smtp-tools tr td select:focus
+    { 
+        border: 2px solid rgba(232, 25, 28, 1) !important;
+        box-shadow:none !important;
+    }
+
+    .smtp-tools tr td label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+    }
+    .smtp-tools tr td p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        text-align: left;
+    }
+
+    .smtp-tools tr td input[type=text]:focus, 
+    .smtp-tools tr td input[type=email]:focus,
+    .smtp-tools tr td input[type=password]:focus
+    {
+        border: 2px solid rgba(232, 25, 28, 1) !important;
+    }
+    .smtp-tools tr td input:focus{
+        outline: none !important;
+        box-shadow:none !important;
+    }
+
+    .smtp-tools tbody tr th{
+        padding-left:11px;
+    }
+
+    .recordtbl {
+       width: 100%;
+       font-family: Arial, Helvetica, sans-serif;
+       float: left; 
+       text-align: left;
+       
+    }
+    .recordtbl tbody th{
+      background-color: #dbdbdb;
+      padding:10px 0px;
+      padding-left:10px;
+    }
+    #recordtbl tbody tr:nth-child(even){background-color: #f2f2f2;}
+    #recordtbl tbody tr:hover {background-color: #ddd;}
+
+    .dataTables_length select{
+        width: 50px;
+    }
+    #message_success p{
+        padding:10px 0px !important;
+        margin-top:0px !important;
+    }
+    #message_success {
+        background: #fff;
+        border-left-width: 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        padding: 7px 30px;
+        margin-left: 0px;
+        margin-top: 14px;
+        color:#FE3B1F;
+        border-radius: 24px;
+    }
+    #message_error p{
+        padding:10px 0px !important;
+        margin-top:0px !important;
+        font-size: 20px;
+    }
+    #message_error {
+        background: #fff;
+        border-left-width: 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        padding: 1px 12px;
+        margin-left: 0px;
+        margin-top: 14px;
+        color: rgb(249, 0, 12);
+    }
+    .button-primary {
+        width: 187px !important;
+        height: 58px !important;
+        padding: 16px, 40px, 16px, 40px !important;
+        border-radius: 500px !important;
+        gap: 10px !important;
+        background: linear-gradient(90deg, #FE3B1F -0.03%, #FF6030 76.61%)!important;
+        font-size: 16px !important;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: center;
+        border-color: rgb(249, 0, 12) !important;
+        
+        
+        
+    }
+    .button-primary:focus {
+        box-shadow: none !important;
+    }
+
+    .orange_overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+        z-index: 1;
+    }
+
+    .orange_popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #ccc;
+        padding: 20px;
+        background: #fff;
+        z-index: 2;
+        width: 500px;
+        height: 350px; 
+        border-radius: 10px;
+    }
+    .orange_close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .orange_pro_title{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .orange_pro_title span{
+        color:#e27730;
+    }
+    .orange_pro_description{
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    .orange_pro_features{
+        width: 180px;
+        height: auto;
+        padding: 9px 0px;
+        background-color: #e27730;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .orange_pro_features a{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        text-decoration: none;
+    }
+    .orange_pro_features a:hover{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #fff;
+        text-decoration: none;
+    }
+    .orange_template{
+       /*  background-color:#fff;
+        border: 1px solid #dadadf; 
+        filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.05));*/
+        margin-top: 10px;
+        padding: 10px 4px 15px 4px;
+    }
+
+    .ornage_table{
+        margin:10px 10px ;
+        width:100%;
+    }
+    .ornage_table h1{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: auto;
+        float: left;
+        clear: both;
+    }
+
+    .ornage_table h5{
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-top: 7px;
+        float: left;
+        clear: both;
+    }
+
+    .ornage_table span {
+        background-color: #F7BC14;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 14px;
+        width: auto;
+        padding: 3px 12px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 10px;
+        border-radius: 12px;
+    }
+
+    .orange_parent {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }  
+    .orange_child {
+        /* flex: 0 0 calc(20% - 12px); */
+        width:320px;
+        height:440px;
+        border-radius: 2px;
+        box-shadow: 0 12px 30px 0 rgba(59,59,97,0.18);
+        position: relative;
+        padding: 12px;
+        margin-right: 15px;
+        border-radius: 24px;
+    }
+    
+    .orange_infoText {
+        display: none;
+        margin-top: 10px;
+        color: #333;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #F7BC14;
+        color: #fff;
+        font-size: 19px;
+        padding: 11px 25px;
+        border-radius: 10px;
+        text-transform: uppercase;
+   }
+ 
+   .smtptemplatelevel{
+    width:168px;
+    height:auto;
+    float: left;
+    margin:0px 10px;
+  }  
+
+  .smtp-tools h2{
+    float:left;
+    margin-left:-10px;
+  }
+
+  .doc-wrapper{
+    width: 1374px;
+    height: auto;
+    padding-top: 24px;
+    gap: 40px;
+  }
+
+  .doc-wrapper h1{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(32, 32, 32, 1);
+    width: 359px;
+    height: 60px;
+    width: auto;
+    height:60px;
+    gap: 12px;
+  }
+
+  .doc-wrapper table{
+    width: 1374px;
+    height: auto;
+    margin-top:30px;
+  }
+
+  .doc-wrapper table td:nth-child(odd) {
+    padding: 7px;
+    width:650px;
+    vertical-align: text-top;
+  }
+   
+  .doc-wrapper table td:nth-child(even) {
+    padding: 7px;
+    width:250px;
+  }
+
+  .doc-wrapper table tr td h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+.doc-wrapper table tr td ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.doc-wrapper table tr td ul li {
+    float: none;
+    display: block;
+}
+
+.doc-wrapper table tr td ul li a {
+    display: inline-block;
+    color: #FE3B1F;
+    text-align: left;
+    padding: 0px 0px 12px;
+    text-decoration: none;
+    font-size: 17px;    
+}
+
+.doc-wrapper table tr td ul li a:focus {
+    box-shadow: none;
+}
+
+.doc-wrapper table tr td ul li a:hover {
+    color: #FE3B1F;
+}
+
+.advanced-settings {
+    display: none;
+  }
+#Advancedsettings{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #FE3B1F;
+    width: 200px;
+    cursor: pointer;
+}  
+
+.dataTables_wrapper .dataTables_filter {
+    float: left !important;
+    text-align: left;
+    margin-bottom:22px;
+}
+.dataTables_wrapper .dataTables_length {
+    float: right !important;
+}
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+    background : none;
+}
+.dataTable thead{
+    background-color: #E6E6E6 !important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding: 5px 0px;
+    text-transform:uppercase;
+}
+.dataTable .status{
+    padding-top: 8px;
+    border-radius: 12px;
+    color: #838383;
+    background-color: #F2F2F2;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+    width: 67px;
+    text-align: center;
+}
+.org-email-logs{
+    width: 1450px;
+    height: auto;
+    float: left;
+    margin-top:15px;
+}  
+.org-email-logs h2{ 
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color:#202020;
+}
+.delete-message{
+    width: auto;
+    height: auto;
+    color: #FE3B1F;
+    padding: 10px 0px 15px 0px;
+    font-size: 19px;
+}
+

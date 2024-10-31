@@ -1,0 +1,26 @@
+{
+    "name": "orangetoolz/orangewp-smtp",
+    "description": "Orange wp smtp plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Orangewp\\Smtp\\": "", 
+            "Orangewp\\Smtp\\lib\\": "lib/",
+            "Orangewp\\Smtp\\Provider\\": "providerlist/",
+            "Orangewp\\Smtp\\Admin\\": "admin/",
+            "Orangewp\\Smtp\\Includes\\": "includes/"
+        },
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "Orangetoolz",
+            "email": "ibrahimkhalil@orangetoolz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "wildbit/postmark-php": "dev-main"
+    }
+}
